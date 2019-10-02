@@ -49,7 +49,7 @@ def long_seg(blocks, cash):
     print(seg_of)
     print(brick)
     x = max(num_block)
-    print(num_block[x])
+    print(x, "=" , num_block[x])
     print(num_block)
 
 
