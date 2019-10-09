@@ -9,6 +9,7 @@ def contains(list, element):
 
 def diff(list_a, list_b):
     num_not_in = []
+    num_not_in_1= []
     not_in = []
     lst = 0
     num_of_list = len(list_a)
@@ -26,9 +27,9 @@ def diff(list_a, list_b):
             lst = 1 + lst
         else:
             not_in.append(list_b[lst])
-    num_not_in.append(not_in)
+    num_not_in_1.append(not_in)
 
-    return num_not_in
+    return num_not_in, num_not_in_1
 
 x = [1, 2, 3, 4]
 y = [1, 2, 3, 5]

@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8666f024-af01-47ce-b199-51eb140cc011" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/fibbona series.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/find_uniques_dif.py" beforeDir="false" afterPath="$PROJECT_DIR$/find_uniques_dif.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/longest Seg.py" beforeDir="false" afterPath="$PROJECT_DIR$/longest Seg.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -23,8 +23,9 @@
     <SUITE FILE_PATH="coverage/Learn$Compound.coverage" NAME="Compound Coverage Results" MODIFIED="1569352437728" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Learn$two_sum.coverage" NAME="two sum Coverage Results" MODIFIED="1569352179659" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Learn$reverse_linkedList.coverage" NAME="reverse_linkedList Coverage Results" MODIFIED="1569520501209" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Learn$longest_Seg.coverage" NAME="longest Seg Coverage Results" MODIFIED="1569631895087" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Learn$find_uniques_dif.coverage" NAME="find_uniques_dif Coverage Results" MODIFIED="1569632278295" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Learn$fibbona_series.coverage" NAME="fibbona series Coverage Results" MODIFIED="1570311634502" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Learn$longest_Seg.coverage" NAME="longest Seg Coverage Results" MODIFIED="1570311771920" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Learn$find_uniques_dif.coverage" NAME="find_uniques_dif Coverage Results" MODIFIED="1570311951157" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
   <component name="DatabaseView">
     <option name="SHOW_INTERMEDIATE" value="true" />
@@ -87,11 +88,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="find_uniques_dif.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="find_uniques_dif.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/find_uniques_dif.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="468">
-              <caret line="35" column="16" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="16" />
+            <state relative-caret-position="465">
+              <caret line="31" column="35" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="fibbona series.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/fibbona series.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="75">
+              <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -146,6 +156,7 @@
         <option value="$PROJECT_DIR$/iuyb" />
         <option value="$PROJECT_DIR$/iuyb.py" />
         <option value="$PROJECT_DIR$/longest Seg.py" />
+        <option value="$PROJECT_DIR$/fibbona series.py" />
         <option value="$PROJECT_DIR$/find_uniques_dif.py" />
       </list>
     </option>
@@ -165,6 +176,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -176,7 +188,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -199,7 +210,7 @@
     </option>
   </component>
   <component name="RunManager" selected="Python.find_uniques_dif">
-    <configuration name="add two num" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="fibbona series" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="Learn" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -212,7 +223,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/add two num" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/fibbona series.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -295,19 +306,19 @@
       <option name="MODULE_MODE" value="false" />
     </configuration>
     <list>
-      <item itemvalue="Python.add two num" />
       <item itemvalue="Python.reverse_linkedList" />
       <item itemvalue="Python.find_uniques_dif" />
       <item itemvalue="Python.longest Seg" />
       <item itemvalue="Python.iuyb" />
+      <item itemvalue="Python.fibbona series" />
     </list>
     <recent_temporary>
       <list>
         <item itemvalue="Python.find_uniques_dif" />
         <item itemvalue="Python.longest Seg" />
+        <item itemvalue="Python.fibbona series" />
         <item itemvalue="Python.iuyb" />
         <item itemvalue="Python.reverse_linkedList" />
-        <item itemvalue="Python.add two num" />
       </list>
     </recent_temporary>
   </component>
@@ -344,7 +355,7 @@
       <window_info anchor="bottom" id="Python Console" order="7" weight="0.40413794" />
       <window_info anchor="bottom" id="Run" order="2" weight="0.32827586" />
       <window_info anchor="bottom" id="Terminal" order="7" weight="0.32827586" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28513733" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.29886913" />
       <window_info anchor="right" id="R Packages" order="3" />
       <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
       <window_info anchor="right" id="R Graphics" order="3" />
@@ -377,13 +388,6 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/find_uniques_dif.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="35" column="16" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/Simple.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="60">
@@ -693,13 +697,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/longest Seg.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="765">
-          <caret line="51" column="19" selection-start-line="51" selection-start-column="19" selection-end-line="51" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/find Unique.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="135">
@@ -721,10 +718,24 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/longest Seg.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="765">
+          <caret line="51" column="19" selection-start-line="51" selection-start-column="19" selection-end-line="51" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/find_uniques_dif.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="468">
-          <caret line="35" column="16" selection-start-line="35" selection-start-column="16" selection-end-line="35" selection-end-column="16" />
+        <state relative-caret-position="465">
+          <caret line="31" column="35" selection-start-line="31" selection-start-column="35" selection-end-line="31" selection-end-column="35" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/fibbona series.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="24" selection-start-line="5" selection-start-column="24" selection-end-line="5" selection-end-column="24" />
         </state>
       </provider>
     </entry>
